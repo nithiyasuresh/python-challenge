@@ -1,0 +1,3 @@
+Total number of months: 86
+Net total amount: 38382578
+Average Change: -426534.65882352943
