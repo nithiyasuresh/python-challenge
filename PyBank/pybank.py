@@ -89,7 +89,7 @@ with open(csvpath) as csvfile:
         avg_change = sum(profits) / len(profits)
 
 # Generate output to terminal
-output = (
+Analysis = (
     f'Financial Analysis\n'
     f'---------------------------------\n'
     f'Total months: {str(TotalMonths)}\n'
@@ -99,8 +99,8 @@ output = (
     f'Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})\n'
 )
 
-print(output)
+print(Analysis)
 # save/output to a text file
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w') as txt_file:
-    txt_file.write(output)
+    txt_file.write(Analysis)
